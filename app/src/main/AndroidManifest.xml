@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme">  <!--这里设置的是整个APP的主题，所有activiy和view都会默认为这个主题-->
+        <activity android:name=".MainActivity"
+             android:theme="@style/AppTheme">  <!--这里设置的是这个Activity的主题，Activity所有view都会默认为这个主题-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
