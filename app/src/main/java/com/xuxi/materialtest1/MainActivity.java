@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private FruitAdapter adapter;
 
     private SwipeRefreshLayout swipeRefreshLayout;
+    //默认触发动画的下拉距离
+    private static final int DEFAULT_CIRCLE_TARGET = 64;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

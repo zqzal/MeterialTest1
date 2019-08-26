@@ -11,6 +11,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="FruitActivityTheme" parent="AppTheme">
+
+    </style>
     <!--&lt;!&ndash;兼容主题 深色主题 activity背景默认黑色，字体默认白色 &ndash;&gt;-->
     <!--<style name="AppTheme1" parent="Theme.AppCompat">-->
     <!--</style>-->

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FruitActivity"></activity>
+        <activity android:name=".FruitActivity"
+            android:theme="@style/FruitActivityTheme">
+        </activity>
         <!-- 这里设置的是整个APP的主题，所有activiy和view都会默认为这个主题 -->
         <activity
             android:name=".MainActivity"
